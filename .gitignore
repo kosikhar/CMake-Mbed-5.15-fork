@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+#Directory settings
+*.directory
+
+#Jetbrains settings
+.idea/
+
+#build folders
+build/
+cmake-build-debug/
