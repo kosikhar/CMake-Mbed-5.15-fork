@@ -25,7 +25,7 @@ void mbed_die(void)
 	core_util_critical_section_enter();
 	while(1)
 	{
-		wait_us(SEC_TO_MS(30));
+		wait_us(30000000);
 		NVIC_SystemReset();
 	}
 }
